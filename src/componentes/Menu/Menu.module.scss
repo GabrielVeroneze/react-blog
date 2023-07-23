@@ -1,0 +1,18 @@
+@use '../../styles/variaveis' as *;
+
+.cabecalho {
+    align-items: center;
+    background-color: $cor-fundo-padrao;
+    display: flex;
+    height: 112px;
+    justify-content: center;
+
+    .cabecalho__menu {
+        display: flex;
+        gap: 3rem;
+
+        .cabecalho__link {
+            
+        }
+    }
+}
