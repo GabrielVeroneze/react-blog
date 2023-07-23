@@ -7,12 +7,20 @@
     height: 112px;
     justify-content: center;
 
-    .cabecalho__menu {
+    .cabecalho__navegacao {
         display: flex;
         gap: 3rem;
 
         .cabecalho__link {
-            
+            color: $cor-texto-destaque;
+            font-size: $fonte-texto-navegacao;
+            line-height: normal;
         }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cabecalho {
+        height: 72px;
     }
 }
