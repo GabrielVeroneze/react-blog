@@ -1,0 +1,11 @@
+@use '../../styles/variaveis' as *;
+
+.link {
+    color: $cor-texto-destaque;
+    font-size: $fonte-texto-navegacao;
+    line-height: normal;
+
+    &--ativo {
+        border-bottom: 1px solid $cor-texto-destaque;
+    }
+}
