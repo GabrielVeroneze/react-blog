@@ -1,16 +1,16 @@
-import { Link } from 'react-router-dom'
 import styles from './Menu.module.scss'
+import MenuLink from '../MenuLink'
 
 const Menu = () => {
     return (
         <header className={styles.cabecalho}>
             <nav className={styles.cabecalho__navegacao}>
-                <Link className={styles.cabecalho__link} to="/">
+                <MenuLink caminho='/'>
                     Início
-                </Link>
-                <Link className={styles.cabecalho__link} to="/sobremim">
+                </MenuLink>
+                <MenuLink caminho='/sobremim'>
                     Sobre mim
-                </Link>
+                </MenuLink>
             </nav>
         </header>
     )
