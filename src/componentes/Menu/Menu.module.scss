@@ -10,12 +10,6 @@
     .cabecalho__navegacao {
         display: flex;
         gap: 3rem;
-
-        .cabecalho__link {
-            color: $cor-texto-destaque;
-            font-size: $fonte-texto-navegacao;
-            line-height: normal;
-        }
     }
 }
 
