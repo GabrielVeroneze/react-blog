@@ -1,19 +1,17 @@
-import { Link, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import styles from './MenuLink.module.scss'
 
 const MenuLink = ({ children, caminho }) => {
-    const localizacao = useLocation()
-
     return (
-        <Link 
-            className={`
+        <NavLink 
+            className={({ isActive }) => `
                 ${styles.link}
-                ${localizacao.pathname === caminho ? styles['link--ativo'] : ''}
+                ${isActive ? styles['link--ativo'] : ""}
             `}
             to={caminho}
         >
             {children}
-        </Link>
+        </NavLink>
     )
 }
 
