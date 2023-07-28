@@ -1,0 +1,105 @@
+@use '../../styles/variaveis' as *;
+
+.banner {
+    align-items: center;
+    background-color: $cor-fundo-secundaria;
+    display: grid;
+    gap: 7.5rem;
+    grid-template-columns: 2fr 1fr;
+    padding: 2.5rem $espacamento-lateral 7rem;
+
+    .banner__conteudo {
+        color: $cor-texto-claro;
+        font-family: $fonte-destaque;
+        width: 100%;
+
+        .banner__titulo {
+            font-size: $fonte-titulo-banner;
+            font-weight: 700;
+            line-height: 5rem;
+            margin-bottom: 2rem;
+        }
+
+        .banner__texto {
+            font-size: $fonte-texto-banner;
+            line-height: normal;
+        }
+    }
+
+    .banner__imagem {
+        height: 394px;
+        position: relative;
+        width: 460px;
+        
+        &--circulo {
+            height: auto;
+            width: 362px;
+        }
+
+        &--foto {
+            border-radius: 50%;
+            bottom: 0;
+            height: auto;
+            position: absolute;
+            right: 0;
+            width: 256px;
+        }
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .banner {
+        gap: 1rem;
+        padding: 3.5rem $espacamento-lateral - 6rem 4.75rem;
+
+        .banner__conteudo {
+
+            .banner__titulo{
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .banner__imagem {
+            height: 289px;
+            width: 338px;
+
+            &--circulo {
+                width: 265px;
+            }
+
+            &--foto {
+                width: 188px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 743px) {
+    .banner {
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, 100%);
+        padding: 2rem $espacamento-lateral - 6.5rem 1.5rem;
+
+        .banner__conteudo {
+
+            .banner__titulo{
+                margin-bottom: 2rem;
+            }
+        }
+
+        .banner__imagem {
+            height: 263px;
+            justify-self: center;
+            max-width: 307px;
+            width: 100%;
+
+            &--circulo {
+                width: 241px;
+            }
+
+            &--foto {
+                width: 171px;
+            }
+        }
+    }
+}
