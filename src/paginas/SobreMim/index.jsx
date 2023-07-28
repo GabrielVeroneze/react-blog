@@ -1,7 +1,10 @@
+import Banner from "componentes/Banner"
 
 const SobreMim = () => {
     return (
-        <div>Sobre mim!</div>
+        <main>
+            <Banner />
+        </main>
     )
 }
 
