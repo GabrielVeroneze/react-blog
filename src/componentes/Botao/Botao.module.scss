@@ -12,3 +12,10 @@
         box-shadow: 0px 0px 0px 3px #041833;
     }
 }
+
+@media screen and (max-width: 1100px) {
+    .botao {
+        font-size: $fonte-botao + 0.1875rem;
+        line-height: 1.125rem;
+    }
+}
