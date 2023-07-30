@@ -1,0 +1,16 @@
+@use '../../styles/variaveis' as *;
+
+.rodape {
+    align-items: center;
+    background-color: $cor-fundo-secundaria;
+    display: flex;
+    gap: 0.5rem;
+    height: 83px;
+    justify-content: center;
+
+    .rodape__texto {
+        color: $cor-texto-claro;
+        font-size: $fonte-texto-direito;
+        line-height: normal;
+    }
+}
