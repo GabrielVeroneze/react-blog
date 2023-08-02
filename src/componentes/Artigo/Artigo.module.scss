@@ -1,0 +1,29 @@
+@use '../../styles/variaveis' as *;
+
+.artigo {
+    position: relative;
+
+    .artigo__capa {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 204px;
+        opacity: 0.3;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .artigo__titulo {
+        color: $cor-texto-escuro;
+        font-family: $fonte-destaque;
+        font-size: $fonte-titulo-pagina;
+        font-weight: 700;
+        line-height: 5rem;
+        padding: 3.875rem $espacamento-lateral;
+    }
+
+    .artigo__conteudo {
+        margin: 2.5rem $espacamento-lateral 5rem;
+    }
+}
