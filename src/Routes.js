@@ -3,6 +3,7 @@ import './styles/reset.css'
 import './styles/estilosGlobais.scss'
 import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
+import Post from 'paginas/Post';
 import Menu from './componentes/Menu';
 import Rodape from 'componentes/Rodape';
 import EstruturaPadrao from 'componentes/EstruturaPadrao';
@@ -16,6 +17,7 @@ function AppRoutes() {
                 <Route path='/' element={<EstruturaPadrao />}>
                     <Route index element={<Inicio />}  />    
                     <Route path='sobremim' element={<SobreMim />} />
+                    <Route path='posts/:id' element={<Post />} />
                 </Route>
                 <Route path='*' element={<div>Página não encontrada</div>}/>
             </Routes>         
