@@ -24,6 +24,40 @@
     }
 
     .artigo__conteudo {
-        margin: 2.5rem $espacamento-lateral 5rem;
+        padding: 2.5rem $espacamento-lateral 5rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .artigo {
+        .artigo__titulo {
+            font-size: $fonte-titulo-pagina - 0.5rem;
+            padding-left: $espacamento-lateral - 6rem;
+            padding-right: $espacamento-lateral - 6rem;
+        }
+
+        .artigo__conteudo {
+            padding: 4.5rem $espacamento-lateral - 6rem 2.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 743px) {
+    
+    .artigo {
+        .artigo__capa {
+            height: 104px;
+        }
+
+        .artigo__titulo {
+            font-size: $fonte-titulo-pagina - 2.25rem;
+            line-height: 3.875rem;
+            padding: 1.3125rem $espacamento-lateral - 6.5rem;
+        }
+
+        .artigo__conteudo {
+            padding: 2rem $espacamento-lateral - 6.5rem 2rem;
+        }
     }
 }

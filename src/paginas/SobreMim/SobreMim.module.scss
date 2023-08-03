@@ -25,6 +25,46 @@
     text-align: justify;
 
     &:last-child {
-        margin-bottom: 0;
+        margin-bottom: 1rem;
     }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .imagem {
+        display: block;
+        float: none;
+        margin: 0 auto 2rem;
+    }
+
+    .paragrafo:last-child {
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 743px) {
+
+    .subtitulo {
+        font-size: $fonte-titulo-artigo - 1rem;
+        line-height: normal;
+    }
+
+    .imagem {
+        height: auto;
+        margin-bottom: 1.5rem;
+        max-width: 589px;
+        width: 100%;
+    }
+
+    .paragrafo {
+        font-size: $fonte-texto-artigo - 0.5rem;
+        line-height: 1.75rem;
+        margin-bottom: 1.5rem;
+
+        &:last-child {
+            margin-bottom: 0.5rem;
+        }
+    }
+
 }
