@@ -35,6 +35,8 @@
         display: block;
         float: none;
         margin: 0 auto 2rem;
+        max-height: 463px;
+        max-width: 516px;
     }
 
     .paragrafo:last-child {
@@ -53,7 +55,6 @@
     .imagem {
         height: auto;
         margin-bottom: 1.5rem;
-        max-width: 589px;
         width: 100%;
     }
 
