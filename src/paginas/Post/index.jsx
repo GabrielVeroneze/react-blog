@@ -12,7 +12,7 @@ const Post = () => {
 
     return (
         <Artigo 
-            capa={`/assets/posts/${post.id}/capa.png`}
+            capa={`/assets/posts/${post.id}/capa-artigo.png`}
             titulo={post.titulo}
         >
             texto...
