@@ -1,12 +1,21 @@
 import { useParams } from "react-router-dom"
+import Artigo from "componentes/Artigo"
+import posts from 'json/posts.json'
 
 const Post = () => {
-    const parametros = useParams()
+    const { id } = useParams()
 
-    console.log(parametros)
+    const post = posts.find(post => {
+        return post.id === Number(id)
+    })
 
     return (
-        <div>Post {parametros.id}</div>
+        <Artigo 
+            capa={`/assets/posts/${post.id}/capa.png`}
+            titulo={post.titulo}
+        >
+            texto...
+        </Artigo>
     )
 }
 
