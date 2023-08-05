@@ -5,6 +5,7 @@ import posts from 'json/posts.json'
 const Post = () => {
     const { id } = useParams()
 
+    // Retorna o objeto que possuir o identificador igual ao valor do parâmetro "id" da URL
     const post = posts.find(post => {
         return post.id === Number(id)
     })
