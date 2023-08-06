@@ -20,7 +20,9 @@
         font-size: $fonte-titulo-pagina;
         font-weight: 700;
         line-height: 5rem;
+        overflow: auto;
         padding: 3.875rem $espacamento-lateral;
+        white-space: nowrap;
     }
 
     .artigo__conteudo {
