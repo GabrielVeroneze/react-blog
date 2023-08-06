@@ -1,0 +1,105 @@
+@use '../../styles/variaveis' as *;
+
+.post-markdown {
+
+    h3, h4, h5, h6 {
+        color: $cor-texto-escuro;
+        font-family: $fonte-destaque;
+        font-weight: 700;
+        line-height: 5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    h3 {
+        font-size: $fonte-titulo-artigo;
+    }
+
+    h4 {
+        font-size: $fonte-titulo-artigo - 0.5rem;
+    }
+
+    p {
+        color: $cor-texto-escuro;
+        font-size: $fonte-texto-artigo;
+        line-height: 2.25rem;
+        margin-bottom: 1.5rem;
+        text-align: justify;
+    }
+
+    a {
+        color: #0493d4;
+        text-decoration: underline;
+    }
+
+    img {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        max-width: 381px;
+    }
+
+    ul {
+        list-style: disc inside;
+    }
+    
+    ul, li {
+        margin-bottom: 1rem;
+    }
+
+    ul > li > p {
+        display: inline;
+    }
+
+    pre, blockquote {
+        background-color: #eaeaea;
+        border-radius: 5px;
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+    }
+
+    pre, blockquote > p {
+        margin: 0;
+    }
+
+    blockquote {
+        word-wrap: break-word;
+    }
+
+    pre {
+        overflow-x: auto;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .post-markdown {
+        h3, h4, h5, h6, p, pre, blockquote {
+            margin-bottom: 2rem;
+        }
+
+        img {
+            max-width: 349px;
+        }
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 743px) {
+    .post-markdown {
+        h3, h4, h5, h6, p, pre, blockquote {
+            margin-bottom: 1.5rem;
+        }
+
+        h3, h4 {
+            font-size: $fonte-titulo-artigo - 1rem;
+            line-height: normal;
+        }
+
+        p {
+            font-size: $fonte-texto-artigo - 0.5rem;
+            line-height: 1.75rem;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
