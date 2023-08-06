@@ -2,7 +2,7 @@
 
 .post-markdown {
 
-    h3, h4, h5, h6 {
+    h2, h3, h4, h5, h6 {
         color: $cor-texto-escuro;
         font-family: $fonte-destaque;
         font-weight: 700;
@@ -10,6 +10,10 @@
         margin-bottom: 1.5rem;
     }
     
+    h2 {
+        font-size: $fonte-titulo-artigo + 0.5rem;
+    }
+
     h3 {
         font-size: $fonte-titulo-artigo;
     }
@@ -57,7 +61,7 @@
         padding: 1rem;
     }
 
-    pre, blockquote > p {
+    pre > p, blockquote > p {
         margin: 0;
     }
 
@@ -72,7 +76,7 @@
 
 @media screen and (max-width: 1100px) {
     .post-markdown {
-        h3, h4, h5, h6, p, pre, blockquote {
+        h2, h3, h4, h5, h6, p, pre, blockquote {
             margin-bottom: 2rem;
         }
 
@@ -84,10 +88,15 @@
 
 @media screen and (min-width: 0px) and (max-width: 743px) {
     .post-markdown {
-        h3, h4, h5, h6, p, pre, blockquote {
+        h2, h3, h4, h5, h6, p, pre, blockquote {
             margin-bottom: 1.5rem;
         }
-
+        
+        h2 {
+            font-size: $fonte-titulo-artigo - 0.75rem;
+            line-height: normal;
+        }
+        
         h3, h4 {
             font-size: $fonte-titulo-artigo - 1rem;
             line-height: normal;
