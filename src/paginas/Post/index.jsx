@@ -12,6 +12,10 @@ const Post = () => {
         return post.id === Number(id)
     })
 
+    if(!post) {
+        return <h1>Post não encontrado...</h1>
+    }
+
     return (
         <Artigo 
             capa={`/assets/posts/${post.id}/capa-artigo.png`}
