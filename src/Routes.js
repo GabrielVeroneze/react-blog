@@ -4,6 +4,7 @@ import './styles/estilosGlobais.scss'
 import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
 import Post from 'paginas/Post';
+import NaoEncontrada from 'paginas/NaoEncontrada';
 import Menu from './componentes/Menu';
 import Rodape from 'componentes/Rodape';
 import EstruturaPadrao from 'componentes/EstruturaPadrao';
@@ -19,7 +20,7 @@ function AppRoutes() {
                     <Route path='sobremim' element={<SobreMim />} />
                     <Route path='posts/:id' element={<Post />} />
                 </Route>
-                <Route path='*' element={<div>Página não encontrada</div>}/>
+                <Route path='*' element={<NaoEncontrada />} />
             </Routes>         
             <Rodape />
         </BrowserRouter>
