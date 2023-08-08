@@ -1,0 +1,55 @@
+@use '../../styles/variaveis' as *;
+
+.erro {
+    background-color: $cor-fundo-secundaria;
+    height: 548px;
+    margin-bottom: 21.10rem;
+    padding: 2.5rem $espacamento-lateral 0;
+    text-align: center;
+
+    .erro__codigo {
+        color: $cor-texto-erro;
+        font-family: $fonte-destaque;
+        font-size: $fonte-codigo-erro;
+        font-weight: 700;
+        line-height: 5rem;
+    }
+
+    .erro__titulo {
+        color: $cor-texto-claro;
+        font-family: $fonte-destaque;
+        font-size: $fonte-titulo-erro;
+        font-weight: 700;
+        line-height: 5rem;
+        margin: 2rem 0;
+    }
+
+    .erro__texto {
+        color: $cor-texto-claro;
+        font-size: $fonte-texto-erro;
+        line-height: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    .erro__container {
+        align-items: flex-start;
+        display: flex;
+        gap: 7.25rem;
+        justify-content: center;
+
+        .erro__botao {
+            background-color: $cor-botao;
+            border-radius: 24px;
+            color: $cor-texto-claro;
+            font-size: $fonte-texto-erro;
+            line-height: 1.125rem;
+            margin-top: 2rem;
+            padding: 1.5rem;
+            width: 179px;
+        }
+
+        .erro__imagem {
+            position: relative;
+        }
+    }
+}
