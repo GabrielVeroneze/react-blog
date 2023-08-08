@@ -12,7 +12,11 @@ const NaoEncontrada = () => {
             </p>
             <div className={styles.erro__container}>
                 <button className={styles.erro__botao}>Voltar</button>
-                <img className={styles.erro__imagem} src={erro404} alt="" />
+                <img
+                    className={styles.erro__imagem}
+                    src={erro404}
+                    alt="Cachorro de óculos e vestido como humano"
+                />
             </div>
         </section>
     )
