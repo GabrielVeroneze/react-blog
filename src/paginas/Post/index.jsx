@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom"
 import ReactMarkdown from "react-markdown"
-import NaoEncontrada from "paginas/NaoEncontrada"
 import Artigo from "componentes/Artigo"
 import './Post.scss'
 import posts from 'json/posts.json'
@@ -14,7 +13,7 @@ const Post = () => {
     })
 
     if(!post) {
-        return <NaoEncontrada />
+        return <h1>Post não Encontrado...</h1>
     }
 
     return (
