@@ -1,3 +1,4 @@
+import Botao from 'componentes/Botao'
 import styles from './PostCard.module.scss'
 import { Link } from 'react-router-dom'
 
@@ -11,8 +12,8 @@ const PostCard = ({ id, titulo }) => {
             />
             <div className={styles.card__conteudo}>
                 <h2 className={styles.card__titulo}>{titulo}</h2>
-                <Link className={styles.card__botao} to={`/posts/${id}`}>
-                    Ler
+                <Link to={`/posts/${id}`}>
+                    <Botao>Ler</Botao>
                 </Link>
             </div>
         </li>
