@@ -1,0 +1,42 @@
+@use '../../styles/variaveis' as *;
+
+.botao {
+    background-color: $cor-botao;
+    border-radius: 24px;
+    color: $cor-texto-claro;
+    font-size: $fonte-botao;
+    line-height: 1.125rem;
+    padding: 0.75rem;
+    text-align: center;
+    width: 78px;
+
+    &:hover {
+        box-shadow: 0px 0px 0px 3px #041833;
+    }
+}
+
+.botao.lg {
+    font-size: $fonte-botao-erro;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    width: 179px;
+}
+
+@media screen and (max-width: 1100px) {
+    .botao {
+        font-size: $fonte-botao + 0.1875rem;
+    }
+
+    .botao.lg {
+        font-size: $fonte-botao-erro - 0.1875rem;
+        margin-top: 1.25rem;
+        width: 156px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 743px) {
+    .botao.lg {
+        font-size: $fonte-botao-erro;
+        margin-top: 0;
+    }
+}
