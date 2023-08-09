@@ -37,17 +37,6 @@
         gap: 7.25rem;
         justify-content: center;
 
-        .erro__botao {
-            background-color: $cor-botao;
-            border-radius: 24px;
-            color: $cor-texto-claro;
-            font-size: $fonte-texto-erro;
-            line-height: 1.125rem;
-            margin-top: 2rem;
-            padding: 1.5rem;
-            width: 179px;
-        }
-
         .erro__imagem {
             position: relative;
         }
@@ -61,12 +50,6 @@
 
         .erro__container {
             gap: 1.8rem;
-
-            .erro__botao {
-                font-size: $fonte-texto-erro - 0.1875rem;
-                margin-top: 1.25rem;
-                width: 156px;
-            }
 
             .erro__imagem {
                 height: auto;
@@ -100,11 +83,6 @@
             align-items: center;
             flex-direction: column;
             gap: 2.85rem;
-
-            .erro__botao {
-                font-size: $fonte-texto-erro;
-                margin-top: 0;
-            }
 
             .erro__imagem {
                 width: 305px;
