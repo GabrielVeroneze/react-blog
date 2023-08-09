@@ -1,8 +1,15 @@
 import Botao from 'componentes/Botao'
 import styles from './NaoEncontrada.module.scss'
 import erro404 from 'assets/erro_404.png'
+import { useNavigate } from 'react-router-dom'
 
 const NaoEncontrada = () => {
+    const navegar = useNavigate()
+    
+    const voltarPagina = () => {
+        navegar(-1)
+    }
+
     return (
         <section className={styles.erro}>
             <div className={styles.erro__codigo}>404</div>
@@ -12,7 +19,9 @@ const NaoEncontrada = () => {
                 Aguarde uns instantes e recarregue a página, ou volte para a página inicial.
             </p>
             <div className={styles.erro__container}>
-                <Botao tamanho="lg">Voltar</Botao>
+                <div onClick={voltarPagina}>
+                    <Botao tamanho="lg">Voltar</Botao>
+                </div>
                 <img
                     className={styles.erro__imagem}
                     src={erro404}
