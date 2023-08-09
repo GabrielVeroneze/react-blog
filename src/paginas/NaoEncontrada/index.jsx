@@ -1,3 +1,4 @@
+import Botao from 'componentes/Botao'
 import styles from './NaoEncontrada.module.scss'
 import erro404 from 'assets/erro_404.png'
 
@@ -11,7 +12,7 @@ const NaoEncontrada = () => {
                 Aguarde uns instantes e recarregue a página, ou volte para a página inicial.
             </p>
             <div className={styles.erro__container}>
-                <button className={styles.erro__botao}>Voltar</button>
+                <Botao tamanho="lg">Voltar</Botao>
                 <img
                     className={styles.erro__imagem}
                     src={erro404}
