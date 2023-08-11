@@ -1,5 +1,7 @@
-import { useParams } from "react-router-dom"
+import { Route, Routes, useParams } from "react-router-dom"
 import ReactMarkdown from "react-markdown"
+import NaoEncontrada from "paginas/NaoEncontrada"
+import EstruturaPadrao from "componentes/EstruturaPadrao"
 import Artigo from "componentes/Artigo"
 import './Post.scss'
 import posts from 'json/posts.json'
@@ -13,20 +15,27 @@ const Post = () => {
     })
 
     if(!post) {
-        return <h1>Post não Encontrado...</h1>
+        return <NaoEncontrada />
     }
 
     return (
-        <Artigo 
-            capa={`/assets/posts/${post.id}/capa-artigo.png`}
-            titulo={post.titulo}
-        >
-            <div className="post-markdown">
-                <ReactMarkdown>
-                    {post.texto}
-                </ReactMarkdown>
-            </div>
-        </Artigo>
+        // Utiliza os componentes <Routes> e <Route> para implementar a estrutura padrão dentro do componente 'Post', evitando que a página não encontrada use dessa estrutura 
+        <Routes>
+            <Route path="*" element={<EstruturaPadrao />}>
+                <Route index element={
+                    <Artigo 
+                        capa={`/assets/posts/${post.id}/capa-artigo.png`}
+                        titulo={post.titulo}
+                    >
+                        <div className="post-markdown">
+                            <ReactMarkdown>
+                                {post.texto}
+                            </ReactMarkdown>
+                        </div>
+                    </Artigo>
+                } />
+            </Route>
+        </Routes>
     )
 }
 
