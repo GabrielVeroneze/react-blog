@@ -5,6 +5,7 @@ import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
 import Post from 'paginas/Post';
 import NaoEncontrada from 'paginas/NaoEncontrada';
+import ScrollToTop from 'componentes/ScrollToTop';
 import Menu from './componentes/Menu';
 import Rodape from 'componentes/Rodape';
 import EstruturaPadrao from 'componentes/EstruturaPadrao';
@@ -13,6 +14,7 @@ import EstruturaPadrao from 'componentes/EstruturaPadrao';
 function AppRoutes() {
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <Menu />
             <Routes>
                 <Route path='/' element={<EstruturaPadrao />}>
