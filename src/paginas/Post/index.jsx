@@ -2,6 +2,7 @@ import { Route, Routes, useParams } from "react-router-dom"
 import ReactMarkdown from "react-markdown"
 import NaoEncontrada from "paginas/NaoEncontrada"
 import EstruturaPadrao from "componentes/EstruturaPadrao"
+import Recomendados from "componentes/Recomendados"
 import Artigo from "componentes/Artigo"
 import './Post.scss'
 import posts from 'json/posts.json'
@@ -32,6 +33,7 @@ const Post = () => {
                                 {post.texto}
                             </ReactMarkdown>
                         </div>
+                        <Recomendados />
                     </Artigo>
                 } />
             </Route>
