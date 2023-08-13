@@ -1,9 +1,9 @@
 import PostCard from "componentes/PostCard"
-import styles from './Inicio.module.scss'
+import styles from './Inicial.module.scss'
 import posts from 'json/posts.json'
 
 
-const Inicio = () => {
+const Inicial = () => {
     return (
         <ul className={styles.posts}>
             {posts.map(post => <PostCard key={post.id} {...post} />)}
@@ -11,4 +11,4 @@ const Inicio = () => {
     )
 }
 
-export default Inicio
+export default Inicial
