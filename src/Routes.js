@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './styles/reset.css'
 import './styles/estilosGlobais.scss'
-import Inicio from './paginas/Inicio';
+import Inicio from 'paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
 import Post from 'paginas/Post';
 import NaoEncontrada from 'paginas/NaoEncontrada';
