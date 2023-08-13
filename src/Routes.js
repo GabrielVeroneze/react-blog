@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './styles/reset.css'
 import './styles/estilosGlobais.scss'
-import Inicio from 'paginas/Inicio';
+import Inicial from 'paginas/Inicial';
 import SobreMim from './paginas/SobreMim';
 import Post from 'paginas/Post';
 import NaoEncontrada from 'paginas/NaoEncontrada';
@@ -18,7 +18,7 @@ function AppRoutes() {
             <Menu />
             <Routes>
                 <Route path='/' element={<EstruturaPadrao />}>
-                    <Route index element={<Inicio />}  />    
+                    <Route index element={<Inicial />}  />    
                     <Route path='sobremim' element={<SobreMim />} />
                 </Route>
                 <Route path='posts/:id/*' element={<Post />} />
