@@ -26,19 +26,19 @@
 
 ### Componentes e Hooks
 
-- `BrowserRouter, Routes e Route`: Utiliza os componentes fornecidos pelo pacote react-router-dom para criar e renderizar rotas. O BrowserRouter envolve todo o aplicativo, o Routes gerencia as diferentes rotas e o Route renderiza componentes em caminhos específicos.
+- `BrowserRouter, Routes e Route`: Usa os componentes fornecidos pelo pacote `react-router-dom` para criar e renderizar rotas. O `BrowserRouter` envolve todo o aplicativo, o `Routes` gerencia as diferentes rotas e o `Route` renderiza componentes em caminhos específicos.
 
-- `Link e NavLink`: Utiliza o componente Link para criar links de navegação internos, mantendo o comportamento de uma Single Page Application (SPA). O componente NavLink é usado para realçar links ativos.
+- `Link e NavLink`: Usa o componente `Link` para criar links de navegação internos, mantendo o comportamento de uma Single Page Application (SPA). O componente `NavLink` é usado para realçar links ativos.
 
-- `useLocation`: O hook useLocation é usado para obter informações sobre a rota atual, permitindo que o aplicativo reaja às mudanças na URL.
+- `useLocation`: O hook `useLocation` é usado para obter informações sobre a rota atual, permitindo que o aplicativo reaja às mudanças na URL.
 
-- `useParams`: O hook useParams é utilizado para acessar os parâmetros passados em rotas dinâmicas, como o ID de um artigo específico.
+- `useParams`: O hook `useParams` é utilizado para acessar os parâmetros passados em rotas dinâmicas, como o ID de um artigo específico.
 
-- `useNavigate`: O hook useNavigate é empregado para realizar navegações mais complexas, como voltar para a página anterior no navegador.
+- `useNavigate`: O hook `useNavigate` é empregado para realizar navegações mais complexas, como voltar para a página anterior no navegador.
 
 ### Responsividade
 
-- `Media queries`: A aplicação é responsiva, adaptando-se a diferentes tamanhos de tela. Ele mantém uma experiência de usuário agradável em dispositivos móveis, tablets e desktops.
+- `Media queries`: Implementa `Media Queries` com o intuito de aplicar responsividade à aplicação, adaptando-se a diferentes tamanhos de tela. Ele mantém uma experiência de usuário agradável em dispositivos móveis, tablets e desktops.
 
 ## :computer: Tecnologias e Ferramentas utilizadas
 
