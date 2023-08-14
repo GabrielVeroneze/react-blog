@@ -42,6 +42,50 @@
 
 ## :computer: Tecnologias e Ferramentas utilizadas
 
+<table align="center">
+   <thead>
+      <tr>
+         <th>Páginas Principais</th>
+      </tr>
+   </thead>
+   <thead>
+      <tr>
+         <th>Início</th>
+         <th>Sobre Mim</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>A página inicial apresenta um cabeçalho com o nome da aplicação e uma breve descrição sobre o autor. Abaixo do cabeçalho, são exibidos vários cards de posts. Cada card representa um tópico, como "Python: Origem do nome", "O que é Node?", etc. Os usuários podem clicar nos cards para ler os artigos completos.</td>
+         <td>A página "Sobre Mim" contém informações sobre a pessoa responsável pelo blog, incluindo uma foto e detalhes relevantes.</td>
+      </tr>
+   </tbody>
+</table>
+
+<table align="center">
+   <thead>
+      <tr>
+         <th>Páginas Principais</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <th>Início</th>
+         <td>
+            A página inicial apresenta um cabeçalho com o nome da aplicação e uma breve descrição sobre o autor. Abaixo do cabeçalho, são exibidos vários cards de posts. Cada card representa um tópico, como "Python: Origem do nome", "O que é Node?", etc. Os usuários podem clicar nos cards para ler os artigos completos.
+         </td>
+      </tr>
+      <tr>
+         <th>Sobre Mim</th>
+         <td>
+            A página "Sobre Mim" contém informações sobre a pessoa responsável pelo blog, incluindo uma foto e detalhes relevantes.
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+
+
 <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
 | -------------------------- | ------------------------ |
 | `Componentes controlados`  | `@font-face`             |
