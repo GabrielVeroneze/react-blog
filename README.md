@@ -45,7 +45,7 @@
 <table align="center">
    <thead>
       <tr>
-         <th>Páginas Principais</th>
+         <th colspan="2">Páginas Principais</th>
       </tr>
    </thead>
    <thead>
@@ -65,7 +65,7 @@
 <table align="center">
    <thead>
       <tr>
-         <th>Páginas Principais</th>
+         <th colspan="2">Páginas Principais</th>
       </tr>
    </thead>
    <tbody>
@@ -84,23 +84,71 @@
    </tbody>
 </table>
 
+<table align="center">
+   <thead>
+      <tr>
+         <th colspan="4">Navegação e Roteamento</th>
+      </tr>
+   </thead>
+   <thead>
+      <tr>
+         <th>Rotas</th>
+         <th>Rotas Aninhadas</th>
+         <th>Rotas Dinâmicas</th>
+         <th>Tratamento de Rota não Encontrada</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            Utiliza o React Router para criar um sistema de navegação com várias páginas. Ele inclui rotas para a página inicial, página "Sobre Mim" e páginas de artigos individuais.
+         </td>
+         <td>
+            As páginas "Início" e "Sobre Mim" são roteadas como filhas da página "Página Padrão", permitindo a reutilização da estrutura da página. A página de erro 404 é tratada de forma separada, sem mostrar o banner.
+         </td>
+         <td>
+            Utiliza rotas dinâmicas para exibir artigos individuais. Cada card na página inicial redireciona para uma rota única, onde o conteúdo do artigo é renderizado com base no ID do artigo.
+         </td>
+         <td>
+            Uma rota com o caminho '*' é configurada para renderizar uma página de erro 404 quando a URL não corresponde a nenhuma outra rota.
+         </td>
+      </tr>
+   </tbody>
+</table>
 
-
-<img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
-| -------------------------- | ------------------------ |
-| `Componentes controlados`  | `@font-face`             |
-| `Componentes funcionais`   | `CSS Modules`            |
-| `Desestruturação de Props` | `Flexbox`                |
-| `Eventos`                  | `Grid`                   |
-| `Importação absoluta`      | `Media Queries`          |
-| `Métodos de array`         | `Normalize`              |
-| `Props`                    | `Operadores Aritméticos` |
-| `Referência dinâmica`      | `Parent Selector`        |
-| `Renderização de listas`   | `Pseudo-classes`         |
-| `Set`                      | `Responsividade`         |
-| `Spread operator`          | `Variáveis`              |
-| `useState`                 | `::-webkit-scrollbar`    |
-| `...`                      | `...`                    |
+<table align="center">
+   <thead>
+      <tr>
+         <th colspan="2">Navegação e Roteamento</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <th>Rotas</th>
+         <td>
+            Utiliza o React Router para criar um sistema de navegação com várias páginas. Ele inclui rotas para a página inicial, página "Sobre Mim" e páginas de artigos individuais.
+         </td>
+      </tr>
+      <tr>
+         <th>Rotas Aninhadas</th>
+         <td>
+            As páginas "Início" e "Sobre Mim" são roteadas como filhas da página "Página Padrão", permitindo a reutilização da estrutura da página. A página de erro 404 é tratada de forma separada, sem mostrar o banner.
+         </td>
+      </tr>
+      <tr>
+         <th>Rotas Dinâmicas</th>
+         <td>
+            Utiliza rotas dinâmicas para exibir artigos individuais. Cada card na página inicial redireciona para uma rota única, onde o conteúdo do artigo é renderizado com base no ID do artigo.
+         </td>
+      </tr>
+      <tr>
+         <th>Tratamento de Rota não Encontrada</th>
+         <td>
+            Uma rota com o caminho '*' é configurada para renderizar uma página de erro 404 quando a URL não corresponde a nenhuma outra rota.
+         </td>
+      </tr>
+   </tbody>
+</table>
 
 ## :open_file_folder: Acesso ao projeto
 Você pode baixar o projeto diretamente:  
