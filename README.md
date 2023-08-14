@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+<p align="center"> <img src="https://imgur.com/GUdgxDe.png" alt="React com JavaScript: lidando com arquivos estáticos"> </p>
+<p>Projeto desenvolvido durante o curso "React: desenvolvendo em React Router com JavaScript" da Alura.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr>
 
-## Available Scripts
+<h1 align="center">React Blog</h1>
+<p align="center">O React Blog é uma aplicação construída em React utilizando o React Router para gerenciar as rotas da aplicação. Tem como objetivo criar um blog onde o usuário pode navegar por diferentes páginas, ler artigos sobre diversos tópicos e conhecer mais sobre o autor.</p>
 
-In the project directory, you can run:
+## :hammer: Funcionalidades e Recursos
 
-### `npm start`
+### Páginas Principais
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `Início`: A página inicial apresenta um cabeçalho com o nome da aplicação e uma breve descrição sobre o autor. Abaixo do cabeçalho, são exibidos vários cards de posts. Cada card representa um tópico, como "Python: Origem do nome", "O que é Node?", etc. Os usuários podem clicar nos cards para ler os artigos completos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `Sobre Mim`: A página "Sobre Mim" contém informações sobre a pessoa responsável pelo blog, incluindo uma foto e detalhes relevantes.
 
-### `npm test`
+### Navegação e Roteamento
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `Rotas`: Utiliza o React Router para criar um sistema de navegação com várias páginas. Ele inclui rotas para a página inicial, página "Sobre Mim" e páginas de artigos individuais.
 
-### `npm run build`
+- `Rotas Aninhadas`: As páginas "Início" e "Sobre Mim" são roteadas como filhas da página "Página Padrão", permitindo a reutilização da estrutura da página. A página de erro 404 é tratada de forma separada, sem mostrar o banner.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `Rotas Dinâmicas`: Utiliza rotas dinâmicas para exibir artigos individuais. Cada card na página inicial redireciona para uma rota única, onde o conteúdo do artigo é renderizado com base no ID do artigo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `Tratamento de Rota não Encontrada`: Uma rota com o caminho '*' é configurada para renderizar uma página de erro 404 quando a URL não corresponde a nenhuma outra rota.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Componentes e Hooks
 
-### `npm run eject`
+- `BrowserRouter, Routes e Route`: Utiliza os componentes fornecidos pelo pacote react-router-dom para criar e renderizar rotas. O BrowserRouter envolve todo o aplicativo, o Routes gerencia as diferentes rotas e o Route renderiza componentes em caminhos específicos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `Link e NavLink`: Utiliza o componente Link para criar links de navegação internos, mantendo o comportamento de uma Single Page Application (SPA). O componente NavLink é usado para realçar links ativos.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `useLocation`: O hook useLocation é usado para obter informações sobre a rota atual, permitindo que o aplicativo reaja às mudanças na URL.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `useParams`: O hook useParams é utilizado para acessar os parâmetros passados em rotas dinâmicas, como o ID de um artigo específico.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `useNavigate`: O hook useNavigate é empregado para realizar navegações mais complexas, como voltar para a página anterior no navegador.
 
-## Learn More
+### Responsividade
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `Media queries`: A aplicação é responsiva, adaptando-se a diferentes tamanhos de tela. Ele mantém uma experiência de usuário agradável em dispositivos móveis, tablets e desktops.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :computer: Tecnologias e Ferramentas utilizadas
 
-### Code Splitting
+<img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
+| -------------------------- | ------------------------ |
+| `Componentes controlados`  | `@font-face`             |
+| `Componentes funcionais`   | `CSS Modules`            |
+| `Desestruturação de Props` | `Flexbox`                |
+| `Eventos`                  | `Grid`                   |
+| `Importação absoluta`      | `Media Queries`          |
+| `Métodos de array`         | `Normalize`              |
+| `Props`                    | `Operadores Aritméticos` |
+| `Referência dinâmica`      | `Parent Selector`        |
+| `Renderização de listas`   | `Pseudo-classes`         |
+| `Set`                      | `Responsividade`         |
+| `Spread operator`          | `Variáveis`              |
+| `useState`                 | `::-webkit-scrollbar`    |
+| `...`                      | `...`                    |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :open_file_folder: Acesso ao projeto
+Você pode baixar o projeto diretamente:  
+[Baixar código fonte](https://github.com/GabrielVeroneze/alura-space/archive/refs/heads/master.zip)
 
-### Analyzing the Bundle Size
+Também é possível clonar o repositório usando o seguinte comando:
+```
+git clone https://github.com/GabrielVeroneze/alura-space.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## :clipboard: Instruções
+Para usar este projeto em seu computador localmente, você precisará seguir estas etapas:
 
-### Making a Progressive Web App
+1. Certifique-se de que você tem o Node.js instalado em seu computador. Se não tiver, faça o download e a instalação a partir do [site oficial](https://nodejs.org/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Abra o terminal e navegue até a pasta raiz do projeto usando o comando `cd` no terminal. Por exemplo:
+   ```
+   cd meu-projeto
+   ```
+3. Antes de iniciar a aplicação, instale as dependências necessárias executando o seguinte comando:
+   ```
+   npm install
+   ```
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Isso irá instalar todas as dependências listadas no arquivo package.json.
 
-### Advanced Configuration
+4. Após a instalação das dependências, inicie o servidor de desenvolvimento executando o seguinte comando:
+   ```
+   npm start
+   ```
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Isso abrirá automaticamente a aplicação no seu navegador. Se não abrir, acesse o endereço http://localhost:3000.
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Demonstração Visual
+`Página inicial`
+![Alura Space](https://imgur.com/PIWRr4d.png)
 
-### Deployment
+`Filtrando imagens`
+![Alura Space](https://github.com/GabrielVeroneze/alura-space/assets/95183901/c46ed158-9a29-4836-8169-5b4e8429bfcc)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`Página inicial`
+![Alura Space](https://imgur.com/vNuOpzj.png)
