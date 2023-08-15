@@ -3,7 +3,20 @@
 
 <hr>
 
-<h1 align="center">React Blog</h1>
+## Índice
+
+- [Descrição](Descrição)
+- [Funcionalidades e Recursos](#hammer-funcionalidades-e-recursos)
+   - [Páginas Principais](#páginas-principais)
+   - [Navegação e Roteamento](#navegação-e-roteamento)
+   - [Componentes e Hooks](#componentes-e-hooks)
+   - [Responsividade](#responsividade)
+- [Ferramentas utilizadas](#computer-ferramentas-utilizadas)
+- [Acesso ao projeto](#open_file_folder-acesso-ao-projeto)
+- [Instruções](#clipboard-instruções)
+- [Demonstração Visual](#demonstração-visual)
+
+<h1 align="center" id="Descrição">React Blog</h1>
 <p align="center">O React Blog é uma aplicação construída em React utilizando o React Router para gerenciar as rotas da aplicação. Tem como objetivo criar um blog onde o usuário pode navegar por diferentes páginas, ler artigos sobre diversos tópicos e conhecer mais sobre o autor.</p>
 
 ## :hammer: Funcionalidades e Recursos
@@ -40,123 +53,18 @@
 
 - `Media queries`: Implementa `Media Queries` com o intuito de aplicar responsividade à aplicação, adaptando-se a diferentes tamanhos de tela. Ele mantém uma experiência de usuário agradável em dispositivos móveis, tablets e desktops.
 
-## :computer: Tecnologias e Ferramentas utilizadas
+## :computer: Ferramentas utilizadas
 
-<table align="center">
-   <thead>
-      <tr>
-         <th colspan="2">Páginas Principais</th>
-      </tr>
-   </thead>
-   <thead>
-      <tr>
-         <th>Início</th>
-         <th>Sobre Mim</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>A página inicial apresenta um cabeçalho com o nome da aplicação e uma breve descrição sobre o autor. Abaixo do cabeçalho, são exibidos vários cards de posts. Cada card representa um tópico, como "Python: Origem do nome", "O que é Node?", etc. Os usuários podem clicar nos cards para ler os artigos completos.</td>
-         <td>A página "Sobre Mim" contém informações sobre a pessoa responsável pelo blog, incluindo uma foto e detalhes relevantes.</td>
-      </tr>
-   </tbody>
-</table>
-
-<table align="center">
-   <thead>
-      <tr>
-         <th colspan="2">Páginas Principais</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <th>Início</th>
-         <td>
-            A página inicial apresenta um cabeçalho com o nome da aplicação e uma breve descrição sobre o autor. Abaixo do cabeçalho, são exibidos vários cards de posts. Cada card representa um tópico, como "Python: Origem do nome", "O que é Node?", etc. Os usuários podem clicar nos cards para ler os artigos completos.
-         </td>
-      </tr>
-      <tr>
-         <th>Sobre Mim</th>
-         <td>
-            A página "Sobre Mim" contém informações sobre a pessoa responsável pelo blog, incluindo uma foto e detalhes relevantes.
-         </td>
-      </tr>
-   </tbody>
-</table>
-
-<table align="center">
-   <thead>
-      <tr>
-         <th colspan="4">Navegação e Roteamento</th>
-      </tr>
-   </thead>
-   <thead>
-      <tr>
-         <th>Rotas</th>
-         <th>Rotas Aninhadas</th>
-         <th>Rotas Dinâmicas</th>
-         <th>Tratamento de Rota não Encontrada</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>
-            Utiliza o React Router para criar um sistema de navegação com várias páginas. Ele inclui rotas para a página inicial, página "Sobre Mim" e páginas de artigos individuais.
-         </td>
-         <td>
-            As páginas "Início" e "Sobre Mim" são roteadas como filhas da página "Página Padrão", permitindo a reutilização da estrutura da página. A página de erro 404 é tratada de forma separada, sem mostrar o banner.
-         </td>
-         <td>
-            Utiliza rotas dinâmicas para exibir artigos individuais. Cada card na página inicial redireciona para uma rota única, onde o conteúdo do artigo é renderizado com base no ID do artigo.
-         </td>
-         <td>
-            Uma rota com o caminho '*' é configurada para renderizar uma página de erro 404 quando a URL não corresponde a nenhuma outra rota.
-         </td>
-      </tr>
-   </tbody>
-</table>
-
-<table align="center">
-   <thead>
-      <tr>
-         <th colspan="2">Navegação e Roteamento</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <th>Rotas</th>
-         <td>
-            Utiliza o React Router para criar um sistema de navegação com várias páginas. Ele inclui rotas para a página inicial, página "Sobre Mim" e páginas de artigos individuais.
-         </td>
-      </tr>
-      <tr>
-         <th>Rotas Aninhadas</th>
-         <td>
-            As páginas "Início" e "Sobre Mim" são roteadas como filhas da página "Página Padrão", permitindo a reutilização da estrutura da página. A página de erro 404 é tratada de forma separada, sem mostrar o banner.
-         </td>
-      </tr>
-      <tr>
-         <th>Rotas Dinâmicas</th>
-         <td>
-            Utiliza rotas dinâmicas para exibir artigos individuais. Cada card na página inicial redireciona para uma rota única, onde o conteúdo do artigo é renderizado com base no ID do artigo.
-         </td>
-      </tr>
-      <tr>
-         <th>Tratamento de Rota não Encontrada</th>
-         <td>
-            Uma rota com o caminho '*' é configurada para renderizar uma página de erro 404 quando a URL não corresponde a nenhuma outra rota.
-         </td>
-      </tr>
-   </tbody>
-</table>
+<img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"> | React Router
+| -------------------------- | -------------------------- | ------------------------ |
 
 ## :open_file_folder: Acesso ao projeto
 Você pode baixar o projeto diretamente:  
-[Baixar código fonte](https://github.com/GabrielVeroneze/alura-space/archive/refs/heads/master.zip)
+[Baixar código fonte](https://github.com/GabrielVeroneze/react-blog/archive/refs/heads/master.zip)
 
 Também é possível clonar o repositório usando o seguinte comando:
 ```
-git clone https://github.com/GabrielVeroneze/alura-space.git
+git clone https://github.com/GabrielVeroneze/react-blog.git
 ```
 
 ## :clipboard: Instruções
@@ -183,10 +91,10 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 
 ## Demonstração Visual
 `Página inicial`
-![Alura Space](https://imgur.com/PIWRr4d.png)
+![React Blog](https://imgur.com/PIWRr4d.png)
 
 `Filtrando imagens`
-![Alura Space](https://github.com/GabrielVeroneze/alura-space/assets/95183901/c46ed158-9a29-4836-8169-5b4e8429bfcc)
+![React Blog](https://github.com/GabrielVeroneze/alura-space/assets/95183901/c46ed158-9a29-4836-8169-5b4e8429bfcc)
 
 `Página inicial`
-![Alura Space](https://imgur.com/vNuOpzj.png)
+![React Blog](https://imgur.com/vNuOpzj.png)
