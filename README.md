@@ -55,8 +55,9 @@
 
 ## :computer: Ferramentas utilizadas
 
-<img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"> | <img width="50px" src="https://github.com/GabrielVeroneze/react-blog/assets/95183901/e4274260-9415-408e-9757-5f2277c42a29">
-| -------------------------- | -------------------------- | ------------------------ |
+| React | Sass | React Router |
+| ----- | ---- | ------------ |
+<img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"> | <img height="50px" src="https://github.com/GabrielVeroneze/react-blog/assets/95183901/e4274260-9415-408e-9757-5f2277c42a29">
 
 ## :open_file_folder: Acesso ao projeto
 Você pode baixar o projeto diretamente:  
@@ -90,11 +91,14 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 <br>
 
 ## Demonstração Visual
-`Página inicial`
-![React Blog](https://imgur.com/PIWRr4d.png)
+`Páginas de Início e Sobre mim`
+![React Blog]()
 
-`Filtrando imagens`
-![React Blog](https://github.com/GabrielVeroneze/alura-space/assets/95183901/c46ed158-9a29-4836-8169-5b4e8429bfcc)
+`Posts`
+![React Blog]()
 
-`Página inicial`
-![React Blog](https://imgur.com/vNuOpzj.png)
+`Posts recomendados`
+![React Blog]()
+
+`Página não encontrada`
+![React Blog]()
