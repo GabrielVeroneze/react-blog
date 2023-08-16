@@ -5,7 +5,7 @@
 
 ## Índice
 
-- [Descrição](Descrição)
+- [Descrição](#descrição)
 - [Funcionalidades e Recursos](#hammer-funcionalidades-e-recursos)
    - [Páginas Principais](#páginas-principais)
    - [Navegação e Roteamento](#navegação-e-roteamento)
@@ -16,7 +16,7 @@
 - [Instruções](#clipboard-instruções)
 - [Demonstração Visual](#demonstração-visual)
 
-<h1 align="center" id="Descrição">React Blog</h1>
+<h1 align="center" id="descrição">React Blog</h1>
 <p align="center">O React Blog é uma aplicação construída em React utilizando o React Router para gerenciar as rotas da aplicação. Tem como objetivo criar um blog onde o usuário pode navegar por diferentes páginas, ler artigos sobre diversos tópicos e conhecer mais sobre o autor.</p>
 
 ## :hammer: Funcionalidades e Recursos
