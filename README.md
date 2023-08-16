@@ -92,14 +92,13 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 
 ## Demonstração Visual
 `Páginas de Início e Sobre mim`
-[React Blog](https://imgur.com/NQQhA5Y.gif)
+![React Blog](https://imgur.com/NQQhA5Y.gif)
 
 `Posts`
-[React Blog](https://imgur.com/8X0FlpW.gif)
+![React Blog](https://imgur.com/8X0FlpW.gif)
 
 `Posts recomendados`
 ![React Blog](https://imgur.com/cOwL7RV.gif)
 
 `Página não encontrada`
 ![React Blog](https://github.com/GabrielVeroneze/react-blog/assets/95183901/673b4456-aae4-44e0-a92a-19af63f176dd)
-
