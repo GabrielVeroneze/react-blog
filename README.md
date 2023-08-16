@@ -81,13 +81,13 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
    ```
    npm install
    ```
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Isso irá instalar todas as dependências listadas no arquivo package.json.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Isso irá instalar todas as dependências listadas no arquivo package.json.
 
 4. Após a instalação das dependências, inicie o servidor de desenvolvimento executando o seguinte comando:
    ```
    npm start
    ```
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Isso abrirá automaticamente a aplicação no seu navegador. Se não abrir, acesse o endereço http://localhost:3000.
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Isso abrirá automaticamente a aplicação no seu navegador. Se não abrir, acesse o endereço http://localhost:3000.
 <br>
 
 ## Demonstração Visual
