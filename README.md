@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://imgur.com/GUdgxDe.png" alt="React com JavaScript: lidando com arquivos estáticos"> </p>
+<p align="center"> <img src="https://imgur.com/u1Nh770.png" alt="React: desenvolvendo em React Router com JavaScript"> </p>
 <p>Projeto desenvolvido durante o curso "React: desenvolvendo em React Router com JavaScript" da Alura.</p>
 
 <hr>
@@ -92,10 +92,10 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 
 ## Demonstração Visual
 `Páginas de Início e Sobre mim`
-![React Blog](https://github.com/GabrielVeroneze/react-blog/assets/95183901/7abceb71-3f8a-4be8-878f-4a950b1c8cff)
+[React Blog](https://github.com/GabrielVeroneze/react-blog/assets/95183901/7abceb71-3f8a-4be8-878f-4a950b1c8cff)
 
 `Posts`
-![React Blog](https://github.com/GabrielVeroneze/react-blog/assets/95183901/e05ea5c1-3117-4d92-9641-6dfeabefe324)
+[React Blog](https://github.com/GabrielVeroneze/react-blog/assets/95183901/e05ea5c1-3117-4d92-9641-6dfeabefe324)
 
 `Posts recomendados`
 ![React Blog]()
